@@ -1,24 +1,29 @@
-# Task Manager API
+# 🚀 Task Manager API
 
-This is a simple Task Manager API built using FastAPI.
+A simple RESTful Task Manager API built with FastAPI.
 
-## Features
-- Create a task
-- Get all tasks
-- Update a task
-- Delete a task
+## 📌 Features
+- Create tasks
+- Retrieve all tasks
+- Update tasks
+- Delete tasks
 
-## Technologies
+## 🛠️ Tech Stack
 - Python
 - FastAPI
+- Uvicorn
 
-## How to run
+## 📡 API Endpoints
 
-1. Install dependencies:
+| Method | Endpoint        | Description        |
+|--------|----------------|--------------------|
+| GET    | /tasks         | Get all tasks      |
+| POST   | /tasks         | Create a new task  |
+| PUT    | /tasks/{id}    | Update a task      |
+| DELETE | /tasks/{id}    | Delete a task      |
+
+## ▶️ How to Run
+
+```bash
 pip install fastapi uvicorn
-
-2. Run the server:
 uvicorn main:app --reload
-
-3. Open in browser:
-http://127.0.0.1:8000/docs
