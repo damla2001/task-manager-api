@@ -27,3 +27,7 @@ A simple RESTful Task Manager API built with FastAPI.
 ```bash
 pip install fastapi uvicorn
 uvicorn main:app --reload
+
+Open in browser:
+
+http://127.0.0.1:8000/docs
